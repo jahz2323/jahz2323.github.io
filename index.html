@@ -39,10 +39,69 @@
 </section>
 
 <section id="Resume">
+    <div class="resume-container">
+        <h1>
+            Projects & Experience
+        </h1>
+        <div class="technical-experience-container">
+            <div class="card">
+                <h1>Digital Design Intern @Infineon Technologies</h1>
+                <p>
+                    Six month work placement at Infineon Technologies Digital Design Centre located in SandyFord, Dublin where I learned new technologies relative to Embedded Hardware, Iot and Computer Architecutre.
+                    Learned SystemVerilog and used this to develop a deterministic look-up table within a RISC-V Processor where we profilled the module under a set of determined correct and incorrect instructions. 
+                    We profilled this using Xcellium to observe invalid bit-level opcodes to ensure functional correctness during the Core's instruction processing steps. 
+                    Interupts handled by connecting our custom module via a wire towards the Core's interrupt module and sucessfully raised interrupts based on faulty instruction type. 
+                    Used RISCV GCC toolchain to cross-compile C tests into ELF assembly. 
+                </p>
+                <div class="extra-details">
+                    <div class="what-i-learned">
+                        <h3>
+                            What I learned: 
+                        </h3>
+                        <p>
+                            <ul>
+                                <li>High-level languages to machine code abstraction. </li>
+                                <li>Register-based concepts - Clocks, Modules, State machines, FIFO </li>
+                                <li>Unix Development</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="projects">
+            <div class="card">
+                <h1>Master's Project: Evaluation of Fourier Convolutions</h1>
+                <p>Final Year Project targeted to speedup expensive Convolution utilising the Fourier Domain</p>
+                <p>Investigated and Profilled several methods of Convolution under CPU and GPU backends and Parallel frameworks @CUDA and WEBGPU.</p>
+                <p>Developed three customised CUDA kernels - Direct Convolution, Fast-Fourier Convolution and FFT-Overlap and Add</p> 
+                <p>Created customised test-suites of stochastic and deterministic inputs and verified the results measuring MSE, PSNR and SSIM.</p>
+                <p>40% Speedup over Direct Convolution when using Fourier-based Convolution when using large kernel and inputs</p>
+                <p>Fourier-based Convolution increased memory overhead by +95% but alternative FFT method via FFT-Overlap and Add reduced consumption to only 20%</p>
+                <p>MSE for both spectral methods maintained less than 10pow(-18) error with respect to direct convolution</p>
+                <div class="extra-details">
+                    <div class="projects-stack">
+                        <h3>
+                            Stack used:
+                        </h3>
+                        <p>
+                            <ul>
+                                <li>CUDA</li>
+                                <li>WEBPGU</li>
+                                <li>DOCKER</li>
+                                <li>OpenCV</li>
+                                <li>C++ and Python</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <section id="Contact">
     <form>
-
+        
     </form>
 </section>
 </main>
